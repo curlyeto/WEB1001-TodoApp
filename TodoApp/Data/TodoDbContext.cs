@@ -11,6 +11,8 @@ namespace TodoApp.Data
          : base(options)
         { }
 
+       
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
@@ -22,6 +24,7 @@ namespace TodoApp.Data
             modelBuilder.Entity<Todo>().HasData(new Todo { Title = "Cleaning", IsCompleted = true });
 
         }
+
     }
 }
 

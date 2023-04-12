@@ -1,4 +1,5 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,4 +7,24 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+
+
+@{
+    List<Todo> todos = ViewBag.Todos;
+
+    <h3>In completed List</h3>
+    <br />
+    foreach (Todo item in todos)
+    {
+        <div>
+            <div>Title :@item.Title</div>
+            <div>Completed :@item.IsCompleted</div>
+            <br />
+        </div>
+
+    }
+}
 
