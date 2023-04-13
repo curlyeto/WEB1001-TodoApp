@@ -22,11 +22,24 @@ public class HomeController : Controller
     {
         // Pull data from our todo table.
         // When pulling data, bring where and Iscompleted false.
+
         List<Todo> todos=_todoDbContext.Todo.Where(c => c.IsCompleted==false).ToList();
+
+        //List<Todo> todos = _todoDbContext.Todo.ToList();
+
         // Send todos list to view
         ViewBag.Todos = todos;
         return View();
     }
+
+    [HttpPost]
+    public IActionResult addTodo(Todo todo)
+    {
+        _todoDbContext.Add(todo);
+        _todoDbContext.SaveChanges();
+        return RedirectToAction(nameof(Index));
+    }
+
 
     private TodoDbContext TodoDbContext()
     {
