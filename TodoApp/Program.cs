@@ -6,11 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
+// We are creating a database in our local using sql lite.
 builder.Services.AddDbContext<TodoDbContext>(options =>
 {
     //options.UseSqlServer(@"name=ConnectionString:AuthorDb"); For windows
-    options.UseSqlite(@"Data Source=~/Users/ertugrul/mydb.db;Version=3;");
+    options.UseSqlite("Data Source=/Users/ertugrul/Mydb.db;");
 });
 
 

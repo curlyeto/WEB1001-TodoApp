@@ -9,14 +9,13 @@
 </div>
 
 
-
-
-
 @{
+    // Here we pull the data we sent from the homecontroller
     List<Todo> todos = ViewBag.Todos;
 
     <h3>In completed List</h3>
     <br />
+    // Freeze the drawn list using foreach
     foreach (Todo item in todos)
     {
         <div>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2FU8xUJtTGM6N1GFULTQ4E3SC4Cwg15dXQDYO4RlBErJWoTEVAn7YWm9XLndIZ1jtHsdpqcFe0oQlPsAZpDh6Q==",
+  "dgSpecHash": "83MikOtBrl0sRiHheDBuBYWDlP1CZc/NOEkzSONtt9/T2chH6A3E7TGD6n2logNnKu3FZslMNytUSuFh74W1vw==",
   "success": true,
   "projectFilePath": "/Users/ertugrul/Projects/TodoApp/TodoApp/TodoApp.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/ertugrul/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.16/microsoft.entityframeworkcore.relational.6.0.16.nupkg.sha512",
     "/Users/ertugrul/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.16/microsoft.entityframeworkcore.sqlite.6.0.16.nupkg.sha512",
     "/Users/ertugrul/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.16/microsoft.entityframeworkcore.sqlite.core.6.0.16.nupkg.sha512",
+    "/Users/ertugrul/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.16/microsoft.entityframeworkcore.tools.6.0.16.nupkg.sha512",
     "/Users/ertugrul/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/ertugrul/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "/Users/ertugrul/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
