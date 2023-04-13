@@ -35,8 +35,11 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult addTodo(Todo todo)
     {
+        // After submit added table todo model
         _todoDbContext.Add(todo);
+        // Saved all changes in the table
         _todoDbContext.SaveChanges();
+        // Redirect route is Index view
         return RedirectToAction(nameof(Index));
     }
 
